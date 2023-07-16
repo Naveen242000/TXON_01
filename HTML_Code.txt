@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <title>Product Landing Page</title>
+</head>
+<body
+
+  <div style="background-image: url('C:/Users/nikit/Desktop/TXON_1/img/Capture.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;"></div>
+			>
+ 
+ <nav>
+   <div class="logo" style="color:white">TIMELESS</div>
+   <!-- toggle menu button -->
+   <span class="menubtn" onclick="openNav()">&#9776;</span>
+ 
+   <div class="navLinks">
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">Men</a></li>
+       <li><a href="#">Women</a></li>
+       <li><a href="#">Store Location</a></li>
+       <!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form -->
+<form class="example" action="action_page.php">
+  <i class="fa fa-search"></i>
+</form>
+     </ul>
+   </div>
+ </nav>
+   <!-- responsive side navbar -->
+   <div class="sideNav" id="sidenav">
+     <a href="#" class="closeBtn" onclick="closeNav()"> &#10006;</a>
+     <a href="#">Home</a>
+     <a href="#">About</a>
+     <a href="#">Services</a>
+     <a href="#">Contact</a>
+     <a href="#"><button type="button">Login</button> </a>
+   </div>
+   
+   <!-- Header content with banner image -->
+   <br><br><br><br><br><br><br><br><br>
+   
+   <div class="row">
+     <div class="column1">
+       <h1 style="color:white">The world is a CLOCK <br>
+	   WINDING DOWN</h1>
+       <p style="color:white">A Cult watch since it is creation in 1985;<br>Classic yet Contemporary and as edgy as ever.</p>
+       <button>DISCOVER MODELS</button>
+     </div>
+   
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>
